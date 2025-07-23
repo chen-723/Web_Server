@@ -8,8 +8,9 @@ CORS(app)
 # ② 配置数据库连接（改成你自己的）
 def get_conn():
     return pymysql.connect(
-        host='localhost',
-        user='root',
+        host='111dc5664cn09.vicp.fun',
+        port=15894,
+        user='remote',
         password='123456',
         db='vue_login_demo',
         charset='utf8mb4',
